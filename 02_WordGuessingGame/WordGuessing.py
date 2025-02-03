@@ -7,7 +7,7 @@ print(f"Super, dann viel Spaß, {name}!")
 #Wordliste
 words = ['baum', 'computer', 'sonne', 'flugzeug', 'tisch', 'kaffee', 'buch', 'musik', 'fahrrad', 'hund',
     'lampe', 'meer', 'zug', 'wolke', 'gitarre', 'tür', 'schlüssel', 'auto', 'telefon', 'brille',
-    'wald', 'stuhl', 'kerze', 'haus', 'uhr', 'schokolade', 'kamera', 'blume', 'brücke', 'schatten']
+    'wald', 'stuhl', 'kerze', 'haus', 'uhr', 'schokolade', 'kamera', 'blume', 'uboot', 'schatten']
 word = random.choice(words)
 
 print("Rate nach dem geheimen Wort!")
