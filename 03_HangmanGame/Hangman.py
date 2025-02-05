@@ -48,7 +48,7 @@ if __name__ == '__main__':
                 # k, speichert die Anzahl die der Buchstabe im Wort vorkommt
                 k = word.count(guess)
                 for _ in range(k):
-                    lettersGuessed += guess # der Buchtabe wird so oft hinzugefügt wie er vorkommt
+                    lettersGuessed += guess # der Buchstabe wird so oft hinzugefügt wie er vorkommt
 
             # Ausgabe des Wortes
             for char in word:
