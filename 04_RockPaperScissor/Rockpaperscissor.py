@@ -7,7 +7,13 @@ print('Gewinnregel des Spiels "Schere Stein Papier":\n'
       + "Papier vs Schere -> Schere gewinnt \n")
 
 while True:
-        print("Gib deine Auswahl ein: \n 1 - Stein \n 2 - Papier \n 3- Schere \n")
+        print("Der Computer ist dran und entscheidet...")
+        sleep(1)
+        print("...fertig!\n")
+        sleep(1)
+
+
+        print("Du bist dran. Gib deine Auswahl ein: \n 1 - Stein \n 2 - Papier \n 3- Schere \n")
 
         # Nimm die Eingabe vom Nutzer
         choice = int(input("Gib deine Auswahl ein: "))
@@ -25,11 +31,7 @@ while True:
             choice_name = 'Schere'
 
         # Ausgabe Nutzerauswahl
-        print('Die Nutzerauswahl ist: ', choice_name)
-        sleep(1)
-        print("Nun ist der Computer dran...")
-        sleep(1)
-        print("...")
+        print('Deine Wahl ist: ', choice_name)
         sleep(1)
 
         # Der Computer wählt eine zufällige Zahl zwischen 1, 2 und 3
@@ -46,7 +48,7 @@ while True:
         print('Die Computerauswahl ist: ', comp_choice_name)
         sleep(1)
         print(choice_name,'vs', comp_choice_name)
-        sleep(1)
+        sleep(2)
 
         # Bestimmen des Gewinners
         if choice == comp_choice:
@@ -62,7 +64,7 @@ while True:
         if result == "DRAW":
             print("<== Es ist ein Unentschieden! ==>")
         elif result == choice_name:
-            print("<== Der Nutzer gewinnt! ==>")
+            print("<== Du hast gewonnen! ==>")
         else:
             print("<== Der Computer gewinnt! ==>")
 
@@ -74,4 +76,4 @@ while True:
             break
 
         # Nach dem Loop
-        print("Danke fürs spielen!")
+        print("Danke fürs spielen!\n")
