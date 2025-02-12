@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d16827d-4ed5-4b7d-8275-9f308daa31e2" name="Changes" comment="Commit Rockpaperscissor game&#10;-functional but no gui&#10;-replay function included&#10;-added delay for better readability">
-      <change afterPath="$PROJECT_DIR$/04_RockPaperScissor/Rockpaperscissor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_PDF_compliance_checker/PDFcompliance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
   "keyToString": {
     "Python.Hangman.executor": "Run",
     "Python.NumberGuessing.executor": "Run",
+    "Python.PDFcompliance.executor": "Run",
     "Python.Rockpaperscissor.executor": "Run",
     "Python.WordGuessing.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,6 +61,11 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\paul.rist\PycharmProjects\BeginnerToAdvancedProjects\05_PDF_compliance_checker" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
